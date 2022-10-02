@@ -31,7 +31,7 @@ class CourseList(Resource):
 class CourseQRCode(Resource):
 
     def get(self, class_name):
-        return send_file(os.path.join(SITE_ROOT, 'assets/classes-qr-codes', '{}.jpg'.format(class_name)))
+        return send_file(os.path.join(SITE_ROOT, 'assets/courses-qr-codes', '{}.jpg'.format(class_name)))
 
 
 api.add_resource(CourseList, "/courses")
