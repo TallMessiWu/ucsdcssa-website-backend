@@ -21,7 +21,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 CAPTCHA_URL = "redis://@localhost:6379/0"
 TOKEN_URL = "redis://@localhost:6379/1"
 
-# 邮件
+# 邮件配置
 MAIL_SERVER = "smtp.qq.com"
 MAIL_PORT = 465
 MAIL_USE_TLS = False
