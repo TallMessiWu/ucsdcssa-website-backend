@@ -1,7 +1,8 @@
 from flask import Flask
 from exts import db, redis_captcha, mail, redis_token
 from flask_migrate import Migrate
-from blueprints.UserBlueprint import login_bp
+from blueprints.class_blueprint import class_bp
+from blueprints.user_blueprint import login_bp
 from flask_cors import CORS
 
 import config
@@ -18,7 +19,7 @@ CORS(app)
 
 # 注册蓝图
 app.register_blueprint(login_bp)
-
+app.register_blueprint(class_bp)
 
 if __name__ == '__main__':
     app.run(port=667)

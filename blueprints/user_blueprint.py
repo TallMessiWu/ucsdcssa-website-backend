@@ -8,7 +8,7 @@ from models.user import UserModel
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash
 
-login_bp = Blueprint("login", __name__)
+login_bp = Blueprint("user", __name__)
 api = Api(login_bp)
 
 
@@ -39,9 +39,9 @@ class Register(Resource):
             db.session.flush()
             return "邮箱已注册", 409
 
-        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=16))
+        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=20))
         redis_token.setex(user.id, 3600, token)
-        return token
+        return {"token": token, "id": user.id}
 
 
 class Captcha(Resource):
@@ -87,9 +87,9 @@ class Login(Resource):
         if not check_password_hash(user.password, args.password):
             return "密码不正确", 409
 
-        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=16))
+        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=20))
         redis_token.setex(user.id, 3600, token)
-        return token
+        return {"token": token, "id": user.id}
 
 
 class UserInfo(Resource):
@@ -98,9 +98,9 @@ class UserInfo(Resource):
         parser = reqparse.RequestParser()
         parser.add_argument('token', type=str, location="headers")
 
+        # token验证
         input_token = parser.parse_args().token
         token = redis_token.get(user_id)
-
         if input_token is None or token is None or input_token != token.decode("utf8"):
             return "登录过期，请重新登录", 403
 
@@ -115,9 +115,9 @@ class UserInfo(Resource):
         parser = reqparse.RequestParser()
         parser.add_argument('token', type=str, location="headers")
 
+        # token验证
         input_token = parser.parse_args().token
         token = redis_token.get(user_id)
-
         if input_token is None or token is None or input_token != token.decode("utf8"):
             return "登录过期，请重新登录", 403
 
@@ -136,9 +136,9 @@ class UserInfo(Resource):
         parser.add_argument('purchased', type=str, location="form")
         parser.add_argument('card_number', type=str, location="form")
 
+        # token验证
         input_token = parser.parse_args().token
         token = redis_token.get(user_id)
-
         if input_token is None or token is None or input_token != token.decode("utf8"):
             return "登录过期，请重新登录", 403
 
