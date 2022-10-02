@@ -1,5 +1,5 @@
 from flask import Flask
-from exts import db, redis_captcha, mail
+from exts import db, redis_captcha, mail, redis_token
 from flask_migrate import Migrate
 from blueprints.UserBlueprint import login_bp
 from flask_cors import CORS
@@ -11,6 +11,7 @@ app.config.from_object(config)
 
 db.init_app(app)
 redis_captcha.init_app(app)
+redis_token.init_app(app)
 mail.init_app(app)
 migrate = Migrate(app, db)
 CORS(app)

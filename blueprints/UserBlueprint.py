@@ -1,8 +1,9 @@
 import random
+import string
 from flask import Blueprint, jsonify
 from flask_restful import Api, Resource, reqparse
 from flask_mail import Message
-from exts import db, redis_captcha, mail
+from exts import db, redis_captcha, mail, redis_token
 from models.user import UserModel
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash
@@ -37,6 +38,10 @@ class Register(Resource):
             db.session.rollback()
             db.session.flush()
             return "邮箱已注册", 409
+
+        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=16))
+        redis_token.setex(user.id, 3600, token)
+        return token
 
 
 class Captcha(Resource):
@@ -81,20 +86,24 @@ class Login(Resource):
             return "邮箱未注册", 409
         if not check_password_hash(user.password, args.password):
             return "密码不正确", 409
-        return {
-            "id": user.id,
-            "username": user.username,
-            "email": user.email,
-            "avatar": user.avatar,
-            "signature": user.signature,
-            "cardNumber": user.card_number,
-            "purchased": user.purchased
-        }
+
+        token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=16))
+        redis_token.setex(user.id, 3600, token)
+        return token
 
 
 class UserInfo(Resource):
     # 根据id查询
     def get(self, user_id):
+        parser = reqparse.RequestParser()
+        parser.add_argument('token', type=str, location="headers")
+
+        input_token = parser.parse_args().token
+        token = redis_token.get(user_id)
+
+        if input_token is None or token is None or input_token != token.decode("utf8"):
+            return "登录过期，请重新登录", 403
+
         result = UserModel.query.get(user_id)
         if not result:
             return "用户id不存在", 404
@@ -103,14 +112,22 @@ class UserInfo(Resource):
 
     # 根据id删除
     def delete(self, user_id):
+        parser = reqparse.RequestParser()
+        parser.add_argument('token', type=str, location="headers")
+
+        input_token = parser.parse_args().token
+        token = redis_token.get(user_id)
+
+        if input_token is None or token is None or input_token != token.decode("utf8"):
+            return "登录过期，请重新登录", 403
+
         UserModel.query.filter_by(id=user_id).delete()
         db.session.commit()
 
     # 根据id修改
     def put(self, user_id):
-        user = UserModel.query.get(user_id)
-
         parser = reqparse.RequestParser()
+        parser.add_argument('token', type=str, location="headers")
         parser.add_argument('email', type=str, location="form")
         parser.add_argument('username', type=str, location="form")
         parser.add_argument('password', type=str, location="form")
@@ -118,6 +135,14 @@ class UserInfo(Resource):
         parser.add_argument('avatar', type=str, location="form")
         parser.add_argument('purchased', type=str, location="form")
         parser.add_argument('card_number', type=str, location="form")
+
+        input_token = parser.parse_args().token
+        token = redis_token.get(user_id)
+
+        if input_token is None or token is None or input_token != token.decode("utf8"):
+            return "登录过期，请重新登录", 403
+
+        user = UserModel.query.get(user_id)
 
         args = parser.parse_args()
         for k, v in args.items():
