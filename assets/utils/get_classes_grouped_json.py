@@ -7,7 +7,7 @@ from collections import defaultdict
 # 注意jpg要小写。如果不是小写可以跑format_JPG_to_jpg.bat（这个脚本只能在windows跑）。
 # 然后跑这个程序，完成之后再重新commit、push、打包加部署就ok了。
 def get_classes_grouped_json():
-    files = list(os.walk("../images"))[1][2]
+    files = list(os.walk("../courses-qr-codes"))[0][2]
     courses = sorted([i.split(".")[0] for i in files])
     courses_grouped = defaultdict(list)
     [courses_grouped[i[0]].append(i) for i in courses]
