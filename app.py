@@ -1,7 +1,7 @@
 from flask import Flask
 from exts import db, redis_captcha, mail, redis_token
 from flask_migrate import Migrate
-from blueprints.class_blueprint import class_bp
+from blueprints.course_blueprint import class_bp
 from blueprints.user_blueprint import login_bp
 from flask_cors import CORS
 
@@ -20,6 +20,12 @@ CORS(app)
 # 注册蓝图
 app.register_blueprint(login_bp)
 app.register_blueprint(class_bp)
+
+
+@app.route('/')
+def hello_world():
+    return "HELLO WROLD"
+
 
 if __name__ == '__main__':
     app.run(port=667)
