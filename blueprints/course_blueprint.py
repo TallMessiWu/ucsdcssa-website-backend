@@ -32,10 +32,15 @@ class CourseList(Resource):
 
 
 class CourseQRCode(Resource):
-
     def get(self, class_name):
         return send_file(os.path.join(SITE_ROOT, 'assets/courses-qr-codes', '{}.jpg'.format(class_name)))
 
 
+class AssistantQRCode(Resource):
+    def get(self, id):
+        return send_file(os.path.join(SITE_ROOT, 'assets', '小助手{}.jpg'.format(id)))
+
+
 api.add_resource(CourseList, "/courses")
 api.add_resource(CourseQRCode, "/courses/<string:class_name>")
+api.add_resource(AssistantQRCode, "/assistants/<int:id>")
