@@ -28,6 +28,8 @@ class Register(Resource):
         if captcha is None or captcha.decode("utf8") != args.captcha:
             return "验证码错误", 409
 
+        redis_captcha.delete(args.email)
+
         user = UserModel(email=args.email, username=args.username, password=args.password)
         db.session.add(user)
 
@@ -113,6 +115,7 @@ class ResetPassword(Resource):
             return "邮箱未注册", 409
 
         user.password = args.password
+        redis_captcha.delete(args.email)
         db.session.commit()
 
 
