@@ -82,7 +82,6 @@ class Login(Resource):
         parser.add_argument('email', type=str, location="form", required=True)
         parser.add_argument('password', type=str, location="form", required=True)
         args = parser.parse_args()
-        print(args)
 
         user = UserModel.query.filter_by(email=args.email).first()
         if user is None:
@@ -93,6 +92,27 @@ class Login(Resource):
         token = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=20))
         redis_token.setex(user.id, 3600, token)
         return {"token": token, "id": user.id}
+
+
+class ResetPassword(Resource):
+    # 根据邮箱重置密码
+    def put(self):
+        parser = reqparse.RequestParser()
+        parser.add_argument('email', type=str, location="form", required=True)
+        parser.add_argument('password', type=str, location="form", required=True)
+        parser.add_argument('captcha', type=str, location="form", required=True)
+        args = parser.parse_args()
+
+        captcha = redis_captcha.get(args.email)
+        if captcha is None or captcha.decode("utf8") != args.captcha:
+            return "验证码错误", 409
+
+        user = UserModel.query.filter_by(email=args.email).first()
+        if user is None:
+            return "邮箱未注册", 409
+
+        user.password = args.password
+        db.session.commit()
 
 
 class UserInfo(Resource):
@@ -127,13 +147,11 @@ class UserInfo(Resource):
         UserModel.query.filter_by(id=user_id).delete()
         db.session.commit()
 
-    # 根据id修改
+    # 根据id修改除了邮箱和密码之外的属性
     def put(self, user_id):
         parser = reqparse.RequestParser()
         parser.add_argument('token', type=str, location="headers")
-        parser.add_argument('email', type=str, location="form")
         parser.add_argument('username', type=str, location="form")
-        parser.add_argument('password', type=str, location="form")
         parser.add_argument('real_name', type=str, location="form")
         parser.add_argument('avatar', type=str, location="form")
         parser.add_argument('purchased', type=str, location="form")
@@ -157,4 +175,5 @@ class UserInfo(Resource):
 api.add_resource(Register, "/register")
 api.add_resource(Captcha, "/captcha")
 api.add_resource(Login, "/login")
+api.add_resource(ResetPassword, "/reset-password")
 api.add_resource(UserInfo, "/users/<string:user_id>")
