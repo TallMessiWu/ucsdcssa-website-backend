@@ -14,8 +14,8 @@ api = Api(class_bp)
 class CourseList(Resource):
     def get(self):
         parser = reqparse.RequestParser()
-        parser.add_argument('token', type=str, location="headers")
-        parser.add_argument('id', type=str, location="headers")
+        parser.add_argument('token', type=str, location="headers", required=True)
+        parser.add_argument('id', type=str, location="headers", required=True)
         args = parser.parse_args()
         print(args)
         # token验证
@@ -25,7 +25,10 @@ class CourseList(Resource):
             return "登录过期，请重新登录", 403
 
         json_url = os.path.join(SITE_ROOT, 'assets', 'courses_grouped.json')
-        return json.load(open(json_url))
+        print(json_url)
+        with open(json_url, encoding="utf8") as f:
+            courses_grouped = json.load(f)
+        return courses_grouped
 
 
 class CourseQRCode(Resource):
