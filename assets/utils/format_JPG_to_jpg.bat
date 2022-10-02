@@ -1,5 +1,5 @@
 @echo off
 cd ../courses-qr-codes
 ren *.JPG *.jpg
-echo finished
-pause
+cd ../utils
+python3 get_classes_grouped_json.py
