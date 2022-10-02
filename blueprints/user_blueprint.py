@@ -95,6 +95,7 @@ class Login(Resource):
 
 
 class ResetPassword(Resource):
+
     # 根据邮箱重置密码
     def put(self):
         parser = reqparse.RequestParser()
