@@ -13,6 +13,7 @@ def get_classes_grouped_json():
     [courses_grouped[i[0]].append(i) for i in courses]
     with open("../courses_grouped.json", "w", encoding="utf-8") as f:
         json.dump(courses_grouped, f, ensure_ascii=False)
+    print("脚本执行完毕")
 
 
 if __name__ == '__main__':

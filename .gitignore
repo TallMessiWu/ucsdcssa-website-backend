@@ -2,3 +2,4 @@ __pycache__
 .idea
 secretes.py
 assets/courses-qr-codes/*.jpg
+assets/courses_grouped.json
