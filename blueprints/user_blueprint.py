@@ -68,7 +68,10 @@ class Captcha(Resource):
             """.format(captcha),
             charset="utf8"
         )
-        mail.send(message)
+        try:
+            mail.send(message)
+        except Exception as e:
+            return "请检查邮箱地址", 409
 
 
 class Login(Resource):
