@@ -20,6 +20,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 # redis数据库
 CAPTCHA_URL = "redis://@localhost:6379/0"
 TOKEN_URL = "redis://@localhost:6379/1"
+EMAIL_LIMIT_URL = "redis://@localhost:6379/2"
 
 # 邮件配置
 MAIL_SERVER = "smtp.qq.com"
@@ -30,3 +31,5 @@ MAIL_DEBUG = False
 MAIL_USERNAME = secretes.MAIL_USERNAME
 MAIL_PASSWORD = secretes.MAIL_PASSWORD
 MAIL_DEFAULT_SENDER = secretes.MAIL_DEFAULT_SENDER
+
+EMAIL_LIMIT_PER_DAY = 10
