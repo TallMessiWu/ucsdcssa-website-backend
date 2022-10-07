@@ -1,5 +1,5 @@
 __pycache__
-.idea
+.idea/
 secretes.py
 assets/courses-qr-codes/*
 assets/courses_grouped.json
