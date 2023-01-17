@@ -1,5 +1,6 @@
 __pycache__/
 .idea/
 classified.py
+migrations/
 assets/courses-qr-codes/*
 assets/courses_grouped.json
