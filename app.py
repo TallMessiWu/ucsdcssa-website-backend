@@ -26,7 +26,7 @@ app.register_blueprint(class_bp)
 
 @app.route('/')
 def hello_world():
-    return "HELLO WROLD"
+    return "HELLO WORLD"
 
 
 if __name__ == '__main__':
