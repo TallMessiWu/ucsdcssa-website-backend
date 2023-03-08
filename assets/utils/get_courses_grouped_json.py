@@ -6,7 +6,7 @@ from collections import defaultdict
 # 把课程二维码图片存储到images里，确保每张图片都是"xxx 112.jpg"格式。
 # 注意jpg要小写。如果不是小写可以跑format_JPG_to_jpg.bat（这个脚本只能在windows跑）。
 # 然后跑这个程序，完成之后再重新commit、push、打包加部署就ok了。
-def get_classes_grouped_json():
+def get_courses_grouped_json():
     files = list(os.walk("../courses-qr-codes"))[0][2]
     courses = sorted([i.split(".")[0] for i in files])
     courses_grouped = defaultdict(list)
@@ -17,4 +17,4 @@ def get_classes_grouped_json():
 
 
 if __name__ == '__main__':
-    get_classes_grouped_json()
+    get_courses_grouped_json()
