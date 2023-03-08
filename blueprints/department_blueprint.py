@@ -33,7 +33,6 @@ class Member(Resource):
 
 class GroupPhoto(Resource):
     def get(self, department_name):
-        json_url = os.path.join(SITE_ROOT, 'assets', 'department.json')
         return send_file(
             os.path.join(
                 SITE_ROOT,
