@@ -1,0 +1,66 @@
+{
+  "开发部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "人事部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "外联部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "文体部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "新媒体部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "宣传部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "学术部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  },
+  "主席团": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！"
+  }
+}

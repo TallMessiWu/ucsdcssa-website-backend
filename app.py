@@ -1,8 +1,9 @@
 from flask import Flask
 from exts import db, redis_captcha, mail, redis_token, redis_email_limit
 from flask_migrate import Migrate
-from blueprints.course_blueprint import class_bp
+from blueprints.course_blueprint import course_bp
 from blueprints.user_blueprint import login_bp
+from blueprints.department_blueprint import department_bp
 from flask_cors import CORS
 
 import config
@@ -21,7 +22,8 @@ CORS(app)
 
 # 注册蓝图
 app.register_blueprint(login_bp)
-app.register_blueprint(class_bp)
+app.register_blueprint(course_bp)
+app.register_blueprint(department_bp)
 
 
 @app.route('/')

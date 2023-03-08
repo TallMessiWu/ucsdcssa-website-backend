@@ -1,0 +1,458 @@
+{
+  "开发部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "吴俊霖": {
+        "position": "部长",
+        "photoSrc": "开发部-吴俊霖-部长.jpg"
+      },
+      "陈嵲淏": {
+        "position": "部员",
+        "photoSrc": "开发部-陈嵲淏-部员.jpg"
+      },
+      "陈子轩": {
+        "position": "部员",
+        "photoSrc": "开发部-陈子轩-部员.jpg"
+      },
+      "陈佳钰": {
+        "position": "部员",
+        "photoSrc": "开发部-陈佳钰-部员.jpg"
+      },
+      "鈕臻真": {
+        "position": "部员",
+        "photoSrc": "开发部-鈕臻真-部员.jpg"
+      },
+      "谷悦萌": {
+        "position": "部员",
+        "photoSrc": "开发部-谷悦萌-部员.jpg"
+      },
+      "蒋澜": {
+        "position": "部员",
+        "photoSrc": "开发部-蒋澜-部员.jpg"
+      },
+      "舒畅": {
+        "position": "部员",
+        "photoSrc": "开发部-舒畅-部员.jpg"
+      },
+      "舒欣": {
+        "position": "部员",
+        "photoSrc": "开发部-舒欣-部员.jpg"
+      },
+      "王晓玥": {
+        "position": "部员",
+        "photoSrc": "开发部-王晓玥-部员.jpg"
+      },
+      "李昱增": {
+        "position": "部员",
+        "photoSrc": "开发部-李昱增-部员.jpg"
+      },
+      "曾亦嘉": {
+        "position": "部员",
+        "photoSrc": "开发部-曾亦嘉-部员.jpg"
+      },
+      "吴不为": {
+        "position": "部员",
+        "photoSrc": "开发部-吴不为-部员.jpg"
+      }
+    }
+  },
+  "人事部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "蔡依珊": {
+        "position": "部长",
+        "photoSrc": "人事部-蔡依珊-部长.jpg"
+      },
+      "田霖": {
+        "position": "部员",
+        "photoSrc": "人事部-田霖-部员.jpg"
+      },
+      "岑宇雯": {
+        "position": "部员",
+        "photoSrc": "人事部-岑宇雯-部员.jpg"
+      },
+      "周子尧": {
+        "position": "部员",
+        "photoSrc": "人事部-周子尧-部员.jpg"
+      },
+      "周前锦": {
+        "position": "部员",
+        "photoSrc": "人事部-周前锦-部员.jpg"
+      },
+      "于潇涵": {
+        "position": "部员",
+        "photoSrc": "人事部-于潇涵-部员.jpg"
+      }
+    }
+  },
+  "外联部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "孙梓皓": {
+        "position": "部长",
+        "photoSrc": "外联部-孙梓皓-部长.jpg"
+      },
+      "黄毓佳": {
+        "position": "部员",
+        "photoSrc": "外联部-黄毓佳-部员.jpg"
+      },
+      "邢俊轩": {
+        "position": "部员",
+        "photoSrc": "外联部-邢俊轩-部员.jpg"
+      },
+      "贺恩奇": {
+        "position": "部员",
+        "photoSrc": "外联部-贺恩奇-部员.jpg"
+      },
+      "肖智昊": {
+        "position": "部员",
+        "photoSrc": "外联部-肖智昊-部员.jpg"
+      },
+      "白宇镆": {
+        "position": "部员",
+        "photoSrc": "外联部-白宇镆-部员.jpg"
+      },
+      "樊梓睿": {
+        "position": "部员",
+        "photoSrc": "外联部-樊梓睿-部员.jpg"
+      },
+      "梁天一": {
+        "position": "部员",
+        "photoSrc": "外联部-梁天一-部员.jpg"
+      },
+      "李辰宇": {
+        "position": "部员",
+        "photoSrc": "外联部-李辰宇-部员.jpg"
+      },
+      "庞伟津": {
+        "position": "部员",
+        "photoSrc": "外联部-庞伟津-部员.jpg"
+      },
+      "孙林涛": {
+        "position": "部员",
+        "photoSrc": "外联部-孙林涛-部员.jpg"
+      },
+      "吴千里": {
+        "position": "部员",
+        "photoSrc": "外联部-吴千里-部员.jpg"
+      },
+      "刘子舟": {
+        "position": "部员",
+        "photoSrc": "外联部-刘子舟-部员.jpg"
+      },
+      "刘入世": {
+        "position": "部员",
+        "photoSrc": "外联部-刘入世-部员.jpg"
+      }
+    }
+  },
+  "文体部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "李思睿": {
+        "position": "部长",
+        "photoSrc": "文体部-李思睿-部长.jpg"
+      },
+      "黄华熙": {
+        "position": "部员",
+        "photoSrc": "文体部-黄华熙-部员.jpg"
+      },
+      "钟韵樊": {
+        "position": "部员",
+        "photoSrc": "文体部-钟韵樊-部员.jpg"
+      },
+      "郭政": {
+        "position": "部员",
+        "photoSrc": "文体部-郭政-部员.jpg"
+      },
+      "邓承仆": {
+        "position": "部员",
+        "photoSrc": "文体部-邓承仆-部员.jpg"
+      },
+      "赵悦彬": {
+        "position": "部员",
+        "photoSrc": "文体部-赵悦彬-部员.jpg"
+      },
+      "洪玮聪": {
+        "position": "部员",
+        "photoSrc": "文体部-洪玮聪-部员.jpg"
+      },
+      "李雅": {
+        "position": "部员",
+        "photoSrc": "文体部-李雅-部员.jpg"
+      },
+      "李旻": {
+        "position": "部员",
+        "photoSrc": "文体部-李旻-部员.jpg"
+      },
+      "朱嘉怡": {
+        "position": "部员",
+        "photoSrc": "文体部-朱嘉怡-部员.jpg"
+      },
+      "张菁恬": {
+        "position": "部员",
+        "photoSrc": "文体部-张菁恬-部员.jpg"
+      },
+      "张爽": {
+        "position": "部员",
+        "photoSrc": "文体部-张爽-部员.jpg"
+      },
+      "吴诸俣": {
+        "position": "部员",
+        "photoSrc": "文体部-吴诸俣-部员.jpg"
+      },
+      "吴同哲": {
+        "position": "部员",
+        "photoSrc": "文体部-吴同哲-部员.jpg"
+      },
+      "利茵": {
+        "position": "部员",
+        "photoSrc": "文体部-利茵-部员.jpg"
+      },
+      "刘晋一": {
+        "position": "部员",
+        "photoSrc": "文体部-刘晋一-部员.jpg"
+      },
+      "刘亦心": {
+        "position": "部员",
+        "photoSrc": "文体部-刘亦心-部员.jpg"
+      }
+    }
+  },
+  "新媒体部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "陈嘉贇": {
+        "position": "部员",
+        "photoSrc": "新媒体部-陈嘉贇-部员.jpg"
+      },
+      "罗嘉禧": {
+        "position": "部员",
+        "photoSrc": "新媒体部-罗嘉禧-部员.jpg"
+      },
+      "田一雯": {
+        "position": "部员",
+        "photoSrc": "新媒体部-田一雯-部员.jpg"
+      },
+      "王喆": {
+        "position": "部员",
+        "photoSrc": "新媒体部-王喆-部员.jpg"
+      },
+      "段思羽": {
+        "position": "部员",
+        "photoSrc": "新媒体部-段思羽-部员.jpg"
+      },
+      "李微微": {
+        "position": "部员",
+        "photoSrc": "新媒体部-李微微-部员.jpg"
+      },
+      "张欣怡": {
+        "position": "部员",
+        "photoSrc": "新媒体部-张欣怡-部员.jpg"
+      },
+      "康信洲": {
+        "position": "部员",
+        "photoSrc": "新媒体部-康信洲-部员.jpg"
+      },
+      "常安琪": {
+        "position": "部员",
+        "photoSrc": "新媒体部-常安琪-部员.jpg"
+      },
+      "周芷莹": {
+        "position": "部员",
+        "photoSrc": "新媒体部-周芷莹-部员.jpg"
+      },
+      "万歆茏": {
+        "position": "部员",
+        "photoSrc": "新媒体部-万歆茏-部员.jpg"
+      }
+    }
+  },
+  "宣传部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "陈昱橦": {
+        "position": "部长",
+        "photoSrc": "宣传部-陈昱橦-部长.jpg"
+      },
+      "顾宇萱": {
+        "position": "部员",
+        "photoSrc": "宣传部-顾宇萱-部员.jpg"
+      },
+      "陈鸿宇": {
+        "position": "部员",
+        "photoSrc": "宣传部-陈鸿宇-部员.jpg"
+      },
+      "邱子杰": {
+        "position": "部员",
+        "photoSrc": "宣传部-邱子杰-部员.jpg"
+      },
+      "王昱舒": {
+        "position": "部员",
+        "photoSrc": "宣传部-王昱舒-部员.jpg"
+      },
+      "李默澜": {
+        "position": "部员",
+        "photoSrc": "宣传部-李默澜-部员.jpg"
+      },
+      "李瑾喻": {
+        "position": "部员",
+        "photoSrc": "宣传部-李瑾喻-部员.jpg"
+      },
+      "李玖衎": {
+        "position": "部员",
+        "photoSrc": "宣传部-李玖衎-部员.jpg"
+      },
+      "徐培珂": {
+        "position": "部员",
+        "photoSrc": "宣传部-徐培珂-部员.jpg"
+      },
+      "张驰": {
+        "position": "部员",
+        "photoSrc": "宣传部-张驰-部员.jpg"
+      },
+      "崔雨凝": {
+        "position": "部员",
+        "photoSrc": "宣传部-崔雨凝-部员.jpg"
+      },
+      "伍可蕾": {
+        "position": "部员",
+        "photoSrc": "宣传部-伍可蕾-部员.jpg"
+      }
+    }
+  },
+  "学术部": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "温馨雨": {
+        "position": "部长",
+        "photoSrc": "学术部-温馨雨-部长.jpg"
+      },
+      "邹一杨": {
+        "position": "特邀顾问",
+        "photoSrc": "学术部-邹一杨-特邀顾问.jpg"
+      },
+      "赵珞岚": {
+        "position": "部员",
+        "photoSrc": "学术部-赵珞岚-部员.jpg"
+      },
+      "谢希雨": {
+        "position": "部员",
+        "photoSrc": "学术部-谢希雨-部员.jpg"
+      },
+      "李泽翰": {
+        "position": "部员",
+        "photoSrc": "学术部-李泽翰-部员.jpg"
+      },
+      "吴浩桐": {
+        "position": "部员",
+        "photoSrc": "学术部-吴浩桐-部员.jpg"
+      },
+      "吉缘": {
+        "position": "部员",
+        "photoSrc": "学术部-吉缘-部员.jpg"
+      },
+      "刘禹汐": {
+        "position": "部员",
+        "photoSrc": "学术部-刘禹汐-部员.jpg"
+      },
+      "刘思涵": {
+        "position": "部员",
+        "photoSrc": "学术部-刘思涵-部员.jpg"
+      },
+      "全芝颖": {
+        "position": "部员",
+        "photoSrc": "学术部-全芝颖-部员.jpg"
+      }
+    }
+  },
+  "主席团": {
+    "groupPhoto": "开发部合照.jpg",
+    "name": "开发部",
+    "intro": "CSSA开发部是一个聚集了资深程序员，并为CSSA提供软件的技术支持。我们的工作包括程序开发，网站搭建与维护。\n\n开发部欢迎所有对程序开发和写网页感兴趣的同学。我们不限制专业，也不强制每个人都有极强的编程实力。只要你愿意学习新技能以及与他人合作，开发部将会是你提升个人能力与积攒宝贵经验的平台。",
+    "epigram": "每一次写代码都当最后一次写，然后就也不要怕出bug。3、2、1，加油！",
+    "recruit": ",<p><u><strong>1. 开发组</strong></u><br />\n职责：<strong>Web开发 (front/back end)、网站/服务器维护、UI设计。</strong><br />\n目前的项目</p>\n\n<ul>\n\t<li>CSSA 主页开发：主要展示CSSA的学生活动和PM照片</li>\n\t<li>CapeX：React web app。检索和展示学校CAPE的数据 (会Python爬虫的优先）</li>\n</ul>\n\n<p>有以下技能者优先：</p>\n\n<ul>\n\t<li>Flask、SpringBoot、HTML、CSS、Javascript、Vue 3、Nodejs。</li>\n</ul>\n\n<p>如果你已经有网站开发经验，请在你的简历中写明作品链接; 如果你在UCSD学习过CSE相关课程或为相关专业学生，也请在简历中注明。</p>\n",
+    "slogan": "加入我们，让我们一起苦练杂技，做出让我们引以为傲的作品吧！",
+    "members": {
+      "尹芊惠": {
+        "position": "主席",
+        "photoSrc": "主席团-尹芊惠-主席.jpg"
+      },
+      "李凯星": {
+        "position": "副主席",
+        "photoSrc": "主席团-李凯星-副主席.jpg"
+      },
+      "周淼": {
+        "position": "副主席",
+        "photoSrc": "主席团-周淼-副主席.jpg"
+      },
+      "刘加美": {
+        "position": "秘书",
+        "photoSrc": "主席团-刘加美-秘书.jpg"
+      },
+      "吴俊霖": {
+        "position": "开发部部长",
+        "photoSrc": "主席团-吴俊霖-开发部部长.jpg"
+      },
+      "朱洪莹": {
+        "position": "人事部部长",
+        "photoSrc": "主席团-朱洪莹-人事部部长.jpg"
+      },
+      "孙梓皓": {
+        "position": "外联部部长",
+        "photoSrc": "主席团-孙梓皓-外联部部长.jpg"
+      },
+      "李思睿": {
+        "position": "文体部部长",
+        "photoSrc": "主席团-李思睿-文体部部长.jpg"
+      },
+      "恽艺玮": {
+        "position": "新媒体部部长",
+        "photoSrc": "主席团-恽艺玮-新媒体部部长.jpg"
+      },
+      "陈昱橦": {
+        "position": "宣传部部长",
+        "photoSrc": "主席团-陈昱橦-宣传部部长.jpg"
+      },
+      "温馨雨": {
+        "position": "学术部部长",
+        "photoSrc": "主席团-温馨雨-学术部部长.jpg"
+      }
+    }
+  }
+}
