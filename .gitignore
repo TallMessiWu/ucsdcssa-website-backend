@@ -4,5 +4,3 @@ classified.py
 migrations/
 assets/courses-qr-codes/*
 assets/courses_grouped.json
-assets/members-photos/*
-assets/members_grouped.json
