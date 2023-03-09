@@ -2,7 +2,7 @@ import json
 import time
 
 import requests
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, make_response
 from flask_restful import Api, Resource
 
 import classified
@@ -32,7 +32,8 @@ class CrawlArticles(Resource):
             "User-Agent": 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.64 HuaweiBrowser/10.0.1.335 Mobile Safari/537.36'
         }
 
-        keyword = 'UCSD中国学生学者联合会'  # 公众号名字：可自定义
+        # 公众号名字：可自定义
+        keyword = 'UCSD中国学生学者联合会'
         search_url = 'https://mp.weixin.qq.com/cgi-bin/searchbiz?action=search_biz&begin=0&count=5&query={}&token={}&lang=zh_CN&f=json&ajax=1'.format(
             keyword, classified.TOKEN
         )
@@ -76,7 +77,9 @@ class CrawlArticles(Resource):
                                             create_time=datetime.fromtimestamp(article["create_time"]))
             db.session.add(article_instance)
         db.session.commit()
-        return "文章获取成功", 200
+
+        # 这里返回使用make_response是因为直接返回中文字符串会显示乱码。
+        return make_response("文章获取成功", 200)
 
 
 class Articles(Resource):

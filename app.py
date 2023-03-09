@@ -30,7 +30,7 @@ app.register_blueprint(article_bp)
 
 @app.route('/')
 def hello_world():
-    return "HELLO WORLD"
+    return '欢迎来到UCSD CSSA后端，具体接口请参考GitHub仓库里的README.md。'
 
 
 if __name__ == '__main__':
