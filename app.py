@@ -2,14 +2,18 @@ from flask import Flask
 from exts import db, redis_captcha, mail, redis_token, redis_email_limit
 from flask_migrate import Migrate
 from blueprints.course_blueprint import course_bp
-from blueprints.user_blueprint import login_bp
+from blueprints.user_blueprint import user_bp
 from blueprints.department_blueprint import department_bp
+from blueprints.article_blueprint import article_bp
 from flask_cors import CORS
+from flask_apscheduler import APScheduler
 
 import config
 
 app = Flask(__name__)
 app.config.from_object(config)
+
+scheduler = APScheduler()
 
 db.init_app(app)
 redis_captcha.init_app(app)
@@ -21,9 +25,10 @@ migrate = Migrate(app, db)
 CORS(app)
 
 # 注册蓝图
-app.register_blueprint(login_bp)
+app.register_blueprint(user_bp)
 app.register_blueprint(course_bp)
 app.register_blueprint(department_bp)
+app.register_blueprint(article_bp)
 
 
 @app.route('/')

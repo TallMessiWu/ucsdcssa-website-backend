@@ -3,9 +3,9 @@ import os
 
 
 def get_department_json():
-    with open("../department_description.json", "r", encoding="utf-8") as f:
+    with open("../assets/department_description.json", "r", encoding="utf-8") as f:
         department_description = json.load(f)
-    files = list(os.walk("../members-photos"))[0][2]
+    files = list(os.walk("../assets/members-photos"))[0][2]
     members = sorted([i.split(".")[0].split("-") for i in files])
     members_grouped = {}
     # 处理成员信息
@@ -50,8 +50,8 @@ def get_department_json():
 
     # 注意这里写入的是department.json而不是department_description.json。
     # 这是因为department_description.json是用来生成department.json的。
-    with open("../department.json", "w", encoding="utf-8") as f:
-        json.dump(department_description, f, ensure_ascii=False)
+    with open("../assets/department.json", "w", encoding="utf-8") as f:
+        json.dump(department_description, f, ensure_ascii=False, indent=4)
     print("脚本执行完毕")
 
 

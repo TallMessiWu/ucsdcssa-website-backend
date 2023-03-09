@@ -13,8 +13,8 @@ from models.user import UserModel
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash
 
-login_bp = Blueprint("user", __name__)
-api = Api(login_bp)
+user_bp = Blueprint("user", __name__)
+api = Api(user_bp)
 
 
 class Register(Resource):
