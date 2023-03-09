@@ -6,14 +6,11 @@ from blueprints.user_blueprint import user_bp
 from blueprints.department_blueprint import department_bp
 from blueprints.article_blueprint import article_bp
 from flask_cors import CORS
-from flask_apscheduler import APScheduler
 
 import config
 
 app = Flask(__name__)
 app.config.from_object(config)
-
-scheduler = APScheduler()
 
 db.init_app(app)
 redis_captcha.init_app(app)
