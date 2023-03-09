@@ -83,14 +83,13 @@ class CrawlArticles(Resource):
 
 
 class Articles(Resource):
-    def get(self, offset_num):
-        return jsonify(ArticleModel.query.order_by(ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
-
-
-class ArticlesByCategory(Resource):
     def get(self, offset_num, category):
-        return jsonify(ArticleModel.query.filter(ArticleModel.categories.contains(category)).order_by(
-            ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
+        if category == "全部":
+            return jsonify(
+                ArticleModel.query.order_by(ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
+        else:
+            return jsonify(ArticleModel.query.filter(ArticleModel.categories.contains(category)).order_by(
+                ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
 
 
 class Headlines(Resource):
@@ -100,6 +99,5 @@ class Headlines(Resource):
 
 
 api.add_resource(CrawlArticles, "/crawl-articles/<int:num>")
-api.add_resource(Articles, "/articles/<int:offset_num>")
-api.add_resource(ArticlesByCategory, "/articles/<int:offset_num>/<string:category>")
+api.add_resource(Articles, "/articles/<int:offset_num>/<string:category>")
 api.add_resource(Headlines, "/headlines")

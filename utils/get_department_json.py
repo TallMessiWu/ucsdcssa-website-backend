@@ -14,6 +14,7 @@ def get_department_json():
             members_grouped[department] = {"members": {}}
         members_grouped[department]["members"][name] = {
             "position": position,
+            # 这个photoSrc其实前端用不到，但是这里保留用来放方便排序与返回图片的时候拼接路径。
             "photoSrc": "{}-{}-{}.jpg".format(department, name, position)
         }
 
