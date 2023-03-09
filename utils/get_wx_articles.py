@@ -1,3 +1,8 @@
+import sys
+
+# setting path
+sys.path.append('..')
+
 import requests
 import classified
 
