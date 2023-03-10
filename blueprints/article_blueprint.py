@@ -90,7 +90,7 @@ class Articles(Resource):
                 ArticleModel.query.order_by(ArticleModel.create_time.desc()).limit(21).offset(offset_num).all())
         else:
             # 一次返回21条文章因为是3的倍数，方便前端布局
-            return jsonify(ArticleModel.query.filter(ArticleModel.categories.contains(category)).order_by(
+            return jsonify(ArticleModel.query.filter(ArticleModel.categories.like("%{}%".format(category))).order_by(
                 ArticleModel.create_time.desc()).limit(21).offset(offset_num).all())
 
 
