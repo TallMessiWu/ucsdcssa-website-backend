@@ -85,11 +85,13 @@ class CrawlArticles(Resource):
 class Articles(Resource):
     def get(self, offset_num, category):
         if category == "全部":
+            # 一次返回21条文章因为是3的倍数，方便前端布局
             return jsonify(
-                ArticleModel.query.order_by(ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
+                ArticleModel.query.order_by(ArticleModel.create_time.desc()).limit(21).offset(offset_num).all())
         else:
+            # 一次返回21条文章因为是3的倍数，方便前端布局
             return jsonify(ArticleModel.query.filter(ArticleModel.categories.contains(category)).order_by(
-                ArticleModel.create_time.desc()).limit(20).offset(offset_num).all())
+                ArticleModel.create_time.desc()).limit(21).offset(offset_num).all())
 
 
 class Headlines(Resource):
