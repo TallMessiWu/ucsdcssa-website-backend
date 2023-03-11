@@ -1,4 +1,6 @@
-from flask import Flask
+import os
+
+from flask import Flask, send_file
 from exts import db, redis_captcha, mail, redis_token, redis_email_limit
 from flask_migrate import Migrate
 from blueprints.course_blueprint import course_bp
@@ -31,6 +33,17 @@ app.register_blueprint(article_bp)
 @app.route('/')
 def hello_world():
     return "欢迎使用UCSD CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend"
+
+
+# 返回网站缩略图
+@app.route("/thumbnail")
+def thumbnail():
+    return send_file(
+        os.path.join(
+            config.SITE_ROOT,
+            "assets/thumbnail.jpg",
+        )
+    )
 
 
 if __name__ == '__main__':
