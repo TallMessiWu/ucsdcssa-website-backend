@@ -16,7 +16,7 @@
     - [courses-qr-codes文件夹](#courses-qr-codes-文件夹)
     - [departments-group-photos文件夹](#departments-group-photos-文件夹)
     - [members-photos文件夹](#members-photos-文件夹)
-- [更新说明](#更新说明)
+- [更新信息](#更新信息)
     - [更新课友群](#更新课友群)
     - [更新部门信息](#更新部门信息)
     - [更新文章信息](#更新文章信息)
