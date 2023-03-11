@@ -37,6 +37,10 @@ def hello_world():
 
 # 返回网站缩略图 图片需要小于300kb并且最小尺寸为300 x 200
 # https://www.jianshu.com/p/dba85c964adb
+# 图片尺寸最佳为 1200 x 630
+# https://www.kapwing.com/resources/what-is-an-og-image-make-and-format-og-images-for-your-blog-or-webpage/
+# 可以用这个网站调整图片尺寸
+# https://imageresizer.com/
 @app.route("/thumbnail")
 def thumbnail():
     return send_file(
