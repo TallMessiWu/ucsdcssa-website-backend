@@ -383,7 +383,7 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
             - https://www.kapwing.com/resources/what-is-an-og-image-make-and-format-og-images-for-your-blog-or-webpage/
         - 可以用这个网站调整图片尺寸。
             - https://imageresizer.com/
-        - 可以用这个网站测试网站缩略图等信息。
+        - 可以用这个网站测试网站缩略图等信息。测试网站地址填`https://www.ucsdcssa.com`。
             - https://www.opengraph.xyz/
     - 返回值
         - 网站缩略图(即`index.html`的`<head>`标签里`<meta property="og:image">`的`content`属性内容)。
