@@ -53,7 +53,7 @@
 需要确保Redis数据库已经安装并且已经启动。
 
 同时需要在assets文件夹中创建`courses-qr-codes`文件夹。并在文件夹中放入所有课程的二维码图片。
-图片命名与格式要求请看[courses-qr-codes文件夹](#courses-qr-codes-文件夹)部分内容。
+图片命名与格式要求请看[courses-qr-codes文件夹](#courses-qr-codes文件夹)部分内容。
 
 需要确保所有图片都为`.jpg`(后缀必须是小写)。同时`assets`文件夹中需要有生成的`courses_grouped.json`和`department.json`文件。
 有两种方式确保这些：
