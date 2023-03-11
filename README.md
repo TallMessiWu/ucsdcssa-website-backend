@@ -275,22 +275,22 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 
 - `GET /department/{department_name}`: 获取指定部门的信息。
     - 请求参数（需要直接放在请求路径中）
-        - department_name：`string`类型，部门名。
+        - department_name：`string`类型，部门名，必填。
     - 返回值
         - `JSON`格式的部门信息。
 
 
 - `GET /member/{department_name}/{member_name}`: 获取指定部门的指定成员的照片。
     - 请求参数（需要直接放在请求路径中）
-        - department_name：`string`类型，部门名。
-        - member_name：`string`类型，成员名。
+        - department_name：`string`类型，部门名，必填。
+        - member_name：`string`类型，成员名，必填。
     - 返回值
         - 指定部员的照片。
 
 
 - `GET /group-photo/{department_name}`: 获取指定部门的部门合照。
     - 请求参数（需要直接放在请求路径中）
-        - department_name：`string`类型，部门名。
+        - department_name：`string`类型，部门名，必填。
     - 返回值
         - 指定部门的部门合照。
 
