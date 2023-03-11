@@ -379,7 +379,7 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 
 - `GET /thumbnail`: 获取缩略图。
     - 图片要求
-        - 返回的图片就是`assets`文件夹中的`thumbnail.jpg`。这里格式需要时`jpg`以满足项目规范的一致性。
+        - 返回的图片就是`assets`文件夹中的`thumbnail.jpg`。这里后缀必须是小写的`.jpg`以满足项目规范的一致性。
         - 图片需要小于300kb并且最小尺寸为300 x 200。
             - https://www.jianshu.com/p/dba85c964adb
         - 图片尺寸最佳为 1200 x 630。
