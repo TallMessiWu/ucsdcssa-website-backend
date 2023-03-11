@@ -13,7 +13,7 @@
 - [代码样式](#代码样式)
 - [项目运行要求](#项目运行要求)
 
-    - [classified.py文件](#classifiedpy文件)[](这里PyCharm提示无法定位，但是其实是可以的。可以使用GitHub读md文件时左上角的目录功能来找一个标题所对应的锚点名称。)
+    - [classified.py文件](#classifiedpy文件)[](这里PyCharm提示无法定位，但是其实是可以的。可以使用GitHub读md文件时左上角的目录功能。点击跳转后，查看地址栏来从而找一个标题所对应的锚点名称。)
     - [courses-qr-codes文件夹](#courses-qr-codes文件夹)
     - [departments-group-photos文件夹](#departments-group-photos文件夹)
     - [members-photos文件夹](#members-photos文件夹)
