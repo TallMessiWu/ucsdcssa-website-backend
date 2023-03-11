@@ -44,8 +44,7 @@
 
 ## 项目运行要求
 
-在克隆项目后，需要在项目根目录下创建`classified.py`文件。里面所需要建立的变量请看[classified.py文件](#classifiedpy-文件)
-部分内容。
+在克隆项目后，需要在项目根目录下创建`classified.py`文件。里面所需要建立的变量请看[classified.py文件](#classifiedpy文件)部分内容。
 
 需要安装requirements.txt中的所有依赖。
 
