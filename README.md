@@ -365,3 +365,25 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
         - card_number: `string`类型，CSSA卡号，选填。
     - 返回值
         - 如果成功则无返回值。
+
+### 其他接口
+
+- `GET /`: 测试服务器是否正常运行。
+    - 返回值
+        - 欢迎使用UCSD
+          CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend
+
+
+- `GET /thumbnail`: 获取缩略图。
+    - 图片要求
+        - 返回的图片就是`assets`文件夹中的`thumbnail.jpg`。这里格式需要时`jpg`以满足项目规范的一致性。
+        - 图片需要小于300kb并且最小尺寸为300 x 200。
+            - https://www.jianshu.com/p/dba85c964adb
+        - 图片尺寸最佳为 1200 x 630。
+            - https://www.kapwing.com/resources/what-is-an-og-image-make-and-format-og-images-for-your-blog-or-webpage/
+        - 可以用这个网站调整图片尺寸。
+            - https://imageresizer.com/
+        - 可以用这个网站测试网站缩略图等信息。
+            - https://www.opengraph.xyz/
+    - 返回值
+        - 网站缩略图(即`index.html`的`<head>`标签里`<meta property="og:image">`的`content`属性内容)。

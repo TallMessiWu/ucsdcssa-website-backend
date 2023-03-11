@@ -41,6 +41,8 @@ def hello_world():
 # https://www.kapwing.com/resources/what-is-an-og-image-make-and-format-og-images-for-your-blog-or-webpage/
 # 可以用这个网站调整图片尺寸
 # https://imageresizer.com/
+# 可以用这个网站测试网站缩略图等信息
+# https://www.opengraph.xyz/
 @app.route("/thumbnail")
 def thumbnail():
     return send_file(
