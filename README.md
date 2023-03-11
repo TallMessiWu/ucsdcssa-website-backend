@@ -1,9 +1,9 @@
 # UCSD CSSA官网后端
 
 
-[官网地址](https://www.ucsdcssa.com/)
+[官网入口](https://www.ucsdcssa.com/)
 
-[API地址](https://api.ucsdcssa.com/)
+[API入口](https://api.ucsdcssa.com/)
 
 [前端GitHub仓库](https://github.com/TallMessiWu/ucsdcssa-website-vue)
 

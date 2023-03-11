@@ -30,7 +30,7 @@ app.register_blueprint(article_bp)
 
 @app.route('/')
 def hello_world():
-    return '欢迎来到UCSD CSSA后端，具体接口请参考GitHub仓库里的README.md。'
+    return "欢迎使用UCSD CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend"
 
 
 if __name__ == '__main__':
