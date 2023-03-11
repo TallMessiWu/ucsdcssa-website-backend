@@ -153,11 +153,13 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 ### 更新部门信息
 
 把`departments-group-photos`
-文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)和[departments-group-photos文件夹](#departments-group-photos文件夹)
+文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)
+和[departments-group-photos文件夹](#departments-group-photos文件夹)
 文档部分的命名规范。
 
 把`members-photos`
-文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)和[members-photos文件夹](#members-photos文件夹)文档部分的命名规范。
+文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)
+和[members-photos文件夹](#members-photos文件夹)文档部分的命名规范。
 
 如果需要，修改`assets`文件夹中的`departments_description.json`文件。其中每个部门的`recruit`字段是`HTML`代码。
 可以使用[这个网站](https://onlinehtmleditor.dev/)编辑文本，然后直接生成`HTML`代码并复制进来。
