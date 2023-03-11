@@ -52,7 +52,7 @@ class Register(Resource):
 
 class Captcha(Resource):
     # 新增验证码
-    def put(self):
+    def post(self):
         parser = reqparse.RequestParser()
         parser.add_argument('email', type=str, location="form", required=True)
         parser.add_argument('purpose', type=str, location="form", required=True)
@@ -153,7 +153,7 @@ class UserInfo(Resource):
     # 根据id查询
     def get(self, user_id):
         parser = reqparse.RequestParser()
-        parser.add_argument('token', type=str, location="headers")
+        parser.add_argument('token', type=str, location="headers", required=True)
 
         # token验证
         input_token = parser.parse_args().token
@@ -170,7 +170,7 @@ class UserInfo(Resource):
     # 根据id删除
     def delete(self, user_id):
         parser = reqparse.RequestParser()
-        parser.add_argument('token', type=str, location="headers")
+        parser.add_argument('token', type=str, location="headers", required=True)
 
         # token验证
         input_token = parser.parse_args().token
@@ -184,11 +184,11 @@ class UserInfo(Resource):
     # 根据id修改除了邮箱和密码之外的属性
     def put(self, user_id):
         parser = reqparse.RequestParser()
-        parser.add_argument('token', type=str, location="headers")
+        parser.add_argument('token', type=str, location="headers", required=True)
         parser.add_argument('username', type=str, location="form")
         parser.add_argument('real_name', type=str, location="form")
         parser.add_argument('avatar', type=str, location="form")
-        parser.add_argument('purchased', type=str, location="form")
+        parser.add_argument('purchased', type=bool, location="form")
         parser.add_argument('card_number', type=str, location="form")
 
         # token验证
@@ -201,6 +201,8 @@ class UserInfo(Resource):
 
         args = parser.parse_args()
         for k, v in args.items():
+            if k == "token":
+                continue
             if v is not None:
                 setattr(user, k, v)
         db.session.commit()
