@@ -76,7 +76,7 @@ MAIL_USERNAME = "更换为你发送验证码的邮箱"
 MAIL_PASSWORD = "更换为发送验证码邮箱的邮箱密码，有些邮箱网站可能需要手动生成应用专用密码，可以网上自行搜索一下步骤"
 MAIL_DEFAULT_SENDER = '更换为你发送验证码的邮箱'
 
-BACKEND_ADDRESS = "更换后端地址，例如如果在本地跑，就写'127.0.0.1:{flask服务端口号}'。如果在服务器跑就写'https://api.ucsd.com'。"
+BACKEND_ADDRESS = "更换后端地址，例如如果在本地跑，就写'http://127.0.0.1:{flask服务端口号}'。如果在服务器跑就写'https://api.ucsd.com'。"
 
 """
 获取微信公众号文章
@@ -147,8 +147,8 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 设置好`classified.py`的`COOKIE`和`TOKEN`字段。
 
 然后用浏览器或软件`Postman`访问`{flask地址}/crawl-articles/{要爬的文章数量}`即可。例如: 
-- 如果需要在服务器上爬取100篇文章，则访问`https://api.ucsdcssa.com/crawl-articles/100`。
-- 如果需要在本地爬取50篇文章，则访问`127.0.0.1:{你的端口号}/crawl-articles/50`，例如`127.0.0.1:667/crawl-articles/50`。
+- 如果需要在服务器上爬取100篇文章，则访问`https://api.ucsdcssa.com/crawl-articles/100`
+- 如果需要在本地爬取50篇文章，则访问`http://127.0.0.1:{你的端口号}/crawl-articles/50`，例如`http://127.0.0.1:667/crawl-articles/50`
 
 然后自己去MySQL数据库中查看是否已经爬取成功。
 
