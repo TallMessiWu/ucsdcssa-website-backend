@@ -6,6 +6,8 @@
 
 [前端GitHub仓库](https://github.com/TallMessiWu/ucsdcssa-website-vue)
 
+[后端GitHub仓库](https://github.com/TallMessiWu/ucsdcssa-website-backend)
+
 ## 目录
 
 - [代码样式](#代码样式)
