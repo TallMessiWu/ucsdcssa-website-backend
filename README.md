@@ -11,17 +11,20 @@
 ## 目录
 
 - [代码样式](#代码样式)
-- [项目运行要求](#项目运行要求)
 
+- [项目运行要求](#项目运行要求)
+    - [图片格式要求](#图片格式要求)
     - [classified.py文件](#classifiedpy文件)[](这里PyCharm提示无法定位，但是其实是可以的。可以使用GitHub读md文件时左上角的目录功能。点击跳转后，查看地址栏来从而找一个标题所对应的锚点名称。)
     - [courses-qr-codes文件夹](#courses-qr-codes文件夹)
     - [departments-group-photos文件夹](#departments-group-photos文件夹)
     - [members-photos文件夹](#members-photos文件夹)
+
 - [更新信息](#更新信息)
     - [更新课友群](#更新课友群)
     - [更新部门信息](#更新部门信息)
     - [更新文章信息](#更新文章信息)
     - [网站更新指南](#网站更新指南)
+
 - [API接口](#API接口)
     - [课友群相关接口](#课友群相关接口)
     - [文章相关接口](#文章相关接口)
@@ -44,7 +47,8 @@
 
 ## 项目运行要求
 
-在克隆项目后，需要在项目根目录下创建`classified.py`文件。里面所需要建立的变量请看[classified.py文件](#classifiedpy文件)部分内容。
+在克隆项目后，需要在项目根目录下创建`classified.py`文件。里面所需要建立的变量请看[classified.py文件](#classifiedpy文件)
+部分内容。
 
 需要安装requirements.txt中的所有依赖。
 
@@ -148,13 +152,16 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 
 ### 更新部门信息
 
-把`departments-group-photos`文件夹中的图片全部删除，然后重新放入新的图片。
+把`departments-group-photos`
+文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)和[departments-group-photos文件夹](#departments-group-photos文件夹)
+文档部分的命名规范。
 
-把`members-photos`文件夹中的图片全部删除，然后重新放入新的图片。
+把`members-photos`
+文件夹中不需要的旧照片全部删除，然后放入新的图片。确保照片名符合[图片格式要求](#图片格式要求)和[members-photos文件夹](#members-photos文件夹)文档部分的命名规范。
 
 如果需要，修改`assets`文件夹中的`departments_description.json`文件。其中每个部门的`recruit`字段是`HTML`代码。
 可以使用[这个网站](https://onlinehtmleditor.dev/)编辑文本，然后直接生成`HTML`代码并复制进来。
-如果有成立了新部门，照着其他部门照着写就行了。
+如果成立了新部门，需要在`departments_description.json`文件中添加新部门的信息。
 
 确保上方都更新好之后，删除原有的`department.json`文件然后有两种方法生成新的`department.json`文件：
 
