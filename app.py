@@ -35,7 +35,8 @@ def hello_world():
     return "欢迎使用UCSD CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend"
 
 
-# 返回网站缩略图
+# 返回网站缩略图 图片需要小于300kb并且最小尺寸为300 x 200
+# https://www.jianshu.com/p/dba85c964adb
 @app.route("/thumbnail")
 def thumbnail():
     return send_file(
