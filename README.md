@@ -76,7 +76,7 @@ MAIL_USERNAME = "更换为你发送验证码的邮箱"
 MAIL_PASSWORD = "更换为发送验证码邮箱的邮箱密码，有些邮箱网站可能需要手动生成应用专用密码，可以网上自行搜索一下步骤"
 MAIL_DEFAULT_SENDER = '更换为你发送验证码的邮箱'
 
-BACKEND_ADDRESS = "更换后端地址，例如如果在本地跑，就写'http://127.0.0.1:{flask服务端口号}'。如果在服务器跑就写'https://api.ucsd.com'。"
+BACKEND_ADDRESS = "更换为后端地址，例如如果在本地跑，就写'http://127.0.0.1:{flask服务端口号}'。如果在服务器跑就写'https://api.ucsd.com'。"
 
 """
 获取微信公众号文章
