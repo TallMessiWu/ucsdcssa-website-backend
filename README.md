@@ -46,7 +46,7 @@
 1. 代码提交前需要先在本地运行一遍，确保没有报错。
 2. 每次提交都应使用`gitmoji`，即一个表情加更新的内容概述。
 3. 表情的挑选需要依照[gitmoji官网](https://gitmoji.dev/)。选择最符合每次提交内容的表情，例如 “:rocket:
-   部署了课友群功能。”，并注意句子应以句号结尾。建议多次小量的提交代码更改，尽量避免一次更新过多代码。
+   部署了课友群功能。”。注意表情与文字之间有一个空格，而且必须以句号结尾。建议多次小量的提交代码更改，尽量避免一次更新过多代码。
 
 ## 项目运行要求
 
@@ -381,8 +381,8 @@ TOKEN = "跟着上方注释的教程走，这里更换为你网络请求的token
 
 - `GET /`: 测试服务器是否正常运行。
     - 返回值
-        - 欢迎使用UCSD
-          CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend
+        - 字符串`欢迎使用UCSD
+          CSSA官网后端API。具体接口用法请参考GitHub仓库里的README.md。仓库地址：https://github.com/TallMessiWu/ucsdcssa-website-backend`
 
 
 - `GET /thumbnail`: 获取缩略图。
