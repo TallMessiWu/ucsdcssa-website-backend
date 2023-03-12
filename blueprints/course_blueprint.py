@@ -32,6 +32,7 @@ class CourseList(Resource):
 class CourseQRCode(Resource):
     def get(self, course_name, id, input_token):
         # token验证
+        # 这里需要token验证是为了防止代写通过直接访问接口从而获取到课程的二维码。
         token = redis_token.get(id)
         if input_token is None or token is None or input_token != token.decode("utf8"):
             return "token或id不正确", 403
