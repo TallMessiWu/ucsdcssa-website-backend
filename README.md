@@ -84,7 +84,9 @@
 
 ### `classified.py`文件
 
-需要存在于项目根目录下。在`classified.py`文件中写入下方代码并根据更换为相应的值：
+需要存在于项目根目录下。
+
+`classified.py`文件中需要有设置以下变量。可以复制下方代码并根据说明更换为相应的值：
 
 ```python
 DB_PASSWORD = "更换为你的MySQL数据库密码"
