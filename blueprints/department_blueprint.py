@@ -1,7 +1,7 @@
 import json
 import os
 
-from flask import Blueprint, send_file, jsonify
+from flask import Blueprint, send_file
 from flask_restful import Api, Resource
 from config import SITE_ROOT
 
